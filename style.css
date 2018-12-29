@@ -1,0 +1,111 @@
+body {
+background-color: gray;
+font-family: arial;
+}
+
+* {
+margin:0;
+padding:0;
+}
+
+#Top {
+	border:1px solid;
+	width:970px;
+	margin:auto;
+	padding:10px;
+	background-color: white;
+	
+}
+
+#header {
+	border:1px solid;
+	width: 100%;
+	;
+	}
+	
+#header ul {
+	list-style:none;
+}
+
+#header ul li {
+	border:0px solid;
+	float:left;
+	color: white;
+	background-color: red;
+	width: 192px;
+	text-align:center;
+	line-height:30px;
+	
+}
+
+#header ul li a{
+	text-decoration:none;
+	color: white;
+}
+
+#header ul li:hover{
+	background-color: black;
+}
+
+#image {
+}
+
+#bodypart {
+	border:0px solid;
+	margin-top:10px;
+}
+
+#bodyleft{
+	border:0px solid;
+	float:left;
+	width:270px;
+}
+
+#bodyleft ul {
+	list-style-type:none;
+} 
+
+#bodyleft h2{
+	background-color: red;
+	color:white;
+	padding-left:10px;
+}
+
+#bodyleft ul li{
+	border-bottom:1px dotted;
+	padding-left:6px;
+	height:30px;
+	line-height:30px;
+}
+#bodyleft ul li a{
+	text-decoration:none;
+}
+
+#bodyleft ul li:hover {
+	background-color: green;
+}
+
+##bodyleft ul li:visited{
+	color: blue;
+}
+
+#bodyright{
+	border:1px solid gray;
+	width:670px;
+	float:left;
+	margin-left:15px;
+	}
+	
+#bodyright h2{
+	background-color:red;
+	color:white;
+	padding-left: 10px;
+	
+}
+
+#bodyright p{
+		padding: 6px;
+		font-size: 15px;
+		line-height: 10px;
+		text-align: left;
+}
